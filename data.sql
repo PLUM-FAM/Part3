@@ -3,6 +3,9 @@ drop table if exists Highschooler;
 drop table if exists Friend;
 drop table if exists Likes;
 
+.headers ON
+.mode columns
+
 /* Create the schema for our tables */
 create table Highschooler(ID int, name text, grade int);
 create table Friend(ID1 int, ID2 int);
