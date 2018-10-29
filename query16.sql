@@ -1,1 +1,1 @@
-.read data.sql
+--.read data.sql
